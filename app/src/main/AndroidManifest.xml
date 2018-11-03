@@ -20,7 +20,8 @@
         <activity android:name=".signup" />
         <activity android:name=".fragment" />
         <activity android:name=".profile" />
-        <activity android:name=".weather"></activity>
+        <activity android:name=".weather" />
+        <activity android:name=".Alert"></activity>
     </application>
 
 </manifest>

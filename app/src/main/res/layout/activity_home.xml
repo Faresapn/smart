@@ -82,7 +82,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/cardView2"
+                android:id="@+id/System"
                 android:layout_width="135sp"
                 android:layout_height="135sp"
                 android:layout_marginStart="32dp"
@@ -363,7 +363,7 @@
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="10sp"
+        android:layout_height="30sp"
         android:layout_alignParentBottom="true"
         android:background="#1B77B9"
         app:layout_constraintBottom_toBottomOf="parent"
