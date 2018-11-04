@@ -19,6 +19,8 @@ public class home extends AppCompatActivity implements View.OnClickListener{
         setContentView(R.layout.activity_home);
         crdview = (CardView) findViewById(R.id.System);
         crdview.setOnClickListener(this);
+        crdview = (CardView) findViewById(R.id.cuaca);
+        crdview.setOnClickListener(this);
         imgmoveactivity = (ImageView) findViewById(R.id.profile_image);
         imgmoveactivity.setOnClickListener(this);
     }
@@ -33,6 +35,11 @@ public class home extends AppCompatActivity implements View.OnClickListener{
                 Intent moveIntent1 = new Intent(home.this, Alert.class);
                 startActivity(moveIntent1);
                 break;
+            case R.id.cuaca:
+                Intent moveIntent2 = new Intent(home.this, weather.class);
+                startActivity(moveIntent2);
+                break;
+
             default:
                 break;
 

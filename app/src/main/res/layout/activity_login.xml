@@ -63,6 +63,7 @@
         android:ems="10"
         android:hint="  Username"
         android:inputType="textEmailAddress"
+        android:lineSpacingExtra="2sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -80,6 +81,8 @@
         android:ems="10"
         android:hint="  Password"
         android:inputType="textPassword"
+        android:lineSpacingExtra="2sp"
+        android:typeface="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />

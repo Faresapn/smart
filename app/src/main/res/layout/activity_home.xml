@@ -91,7 +91,7 @@
                 app:cardBackgroundColor="#C6DDEE"
                 app:cardCornerRadius="5sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView5">
+                app:layout_constraintTop_toBottomOf="@+id/cuaca">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -176,7 +176,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/cardView5"
+                android:id="@+id/cuaca"
                 android:layout_width="135sp"
                 android:layout_height="135sp"
                 android:layout_marginStart="32dp"
