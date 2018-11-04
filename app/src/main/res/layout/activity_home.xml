@@ -138,7 +138,7 @@
                 app:cardBackgroundColor="#C6DDEE"
                 app:cardCornerRadius="5sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView6">
+                app:layout_constraintTop_toBottomOf="@+id/boking">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -185,7 +185,7 @@
                 app:cardBackgroundColor="#C6DDEE"
                 app:cardCornerRadius="5sp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/cardView4">
+                app:layout_constraintTop_toBottomOf="@+id/profil">
 
                 <android.support.constraint.ConstraintLayout
                     android:layout_width="match_parent"
@@ -223,7 +223,7 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:id="@+id/cardView6"
+                android:id="@+id/boking"
                 android:layout_width="135sp"
                 android:layout_height="135sp"
                 android:layout_marginTop="153dp"
@@ -282,7 +282,7 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <android.support.v7.widget.CardView
-                android:id="@+id/cardView4"
+                android:id="@+id/profil"
                 android:layout_width="135sp"
                 android:layout_height="135sp"
                 android:layout_marginStart="32dp"

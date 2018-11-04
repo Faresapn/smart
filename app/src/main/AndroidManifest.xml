@@ -21,7 +21,8 @@
         <activity android:name=".fragment" />
         <activity android:name=".profile" />
         <activity android:name=".weather" />
-        <activity android:name=".Alert"></activity>
+        <activity android:name=".Alert" />
+        <activity android:name=".booking"></activity>
     </application>
 
 </manifest>
