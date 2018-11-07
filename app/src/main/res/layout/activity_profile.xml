@@ -19,13 +19,13 @@
             android:layout_marginTop="30sp"
             android:layout_marginLeft="25sp"
             app:srcCompat="@drawable/backk" />
-
+g
         <TextView
             android:id="@+id/Alert"
             android:layout_width="80sp"
             android:layout_height="wrap_content"
             android:text="Profile"
-            android:layout_marginLeft="120sp"
+            android:layout_marginLeft="100sp"
             android:layout_marginTop="26sp"
             android:layout_marginRight="146sp"
             android:textColor="#fff"

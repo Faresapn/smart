@@ -25,7 +25,7 @@
             android:layout_width="100sp"
             android:layout_height="wrap_content"
             android:text="WEATHER"
-            android:layout_marginLeft="100sp"
+            android:layout_marginLeft="90sp"
             android:layout_marginTop="26sp"
             android:layout_marginRight="146sp"
             android:textColor="#fff"
