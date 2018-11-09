@@ -6,7 +6,91 @@
     android:layout_height="match_parent"
     tools:context=".weather"
     android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:text="@string/app_name">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30sp"
+                android:layout_height="21sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="25sp"
+                app:srcCompat="@drawable/backk" />
 
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="WEATHER"
+                android:layout_marginLeft="90sp"
+                android:layout_marginTop="26sp"
+                android:layout_marginRight="146sp"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="30dp" />
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/weather"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="116dp"
+            android:layout_marginRight="116dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mendung" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="129dp"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginRight="129dp"
+            android:text="Jumat.26 Oktober 2018"
+            android:textColor="#000"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/weather" />
+        <TextView
+            android:id="@+id/txtweather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="152dp"
+            android:layout_marginLeft="152dp"
+            android:layout_marginEnd="152dp"
+            android:layout_marginRight="152dp"
+            android:text="Berawan 26'C"
+            android:textColor="#000"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/date" />
+
+
+
+
+    </LinearLayout>
 
 
 
