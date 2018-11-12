@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".weather">
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
+    tools:context=".weather"
+    android:orientation="vertical">
+    <LinearLayout
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="80sp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
@@ -37,17 +38,58 @@
     </android.support.v7.widget.Toolbar>
 
     <android.support.constraint.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+=======
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:text="@string/app_name">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="30sp"
+                android:layout_height="21sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="25sp"
+                app:srcCompat="@drawable/backk" />
 
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:text="WEATHER"
+                android:layout_marginLeft="90sp"
+                android:layout_marginTop="26sp"
+                android:layout_marginRight="146sp"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="59dp"
+                tools:layout_editor_absoluteY="30dp" />
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+    <LinearLayout
+>>>>>>> 52101d7d43792ae9308163e4c2e8c4bf3fead5e9
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <ImageView
+<<<<<<< HEAD
             android:id="@+id/imageView14"
             android:layout_width="128sp"
             android:layout_height="80sp"
             android:layout_marginStart="116dp"
+=======
+            android:id="@+id/weather"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+>>>>>>> 52101d7d43792ae9308163e4c2e8c4bf3fead5e9
             android:layout_marginLeft="116dp"
-            android:layout_marginTop="110dp"
-            android:layout_marginEnd="116dp"
             android:layout_marginRight="116dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +97,7 @@
             app:srcCompat="@drawable/w" />
 
         <TextView
-            android:id="@+id/textView23"
+            android:id="@+id/date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="129dp"
@@ -68,10 +110,9 @@
             android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView14" />
-
+            app:layout_constraintTop_toBottomOf="@+id/weather" />
         <TextView
-            android:id="@+id/textView24"
+            android:id="@+id/txtweather"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="152dp"
@@ -83,6 +124,7 @@
             android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
             app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
         <TextView
@@ -278,10 +320,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" >
+=======
+            app:layout_constraintTop_toBottomOf="@+id/date" />
 
 
-    </android.support.design.widget.BottomNavigationView>
+>>>>>>> 52101d7d43792ae9308163e4c2e8c4bf3fead5e9
+
+
+    </LinearLayout>
 
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
