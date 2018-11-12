@@ -22,7 +22,9 @@
         <activity android:name=".profile" />
         <activity android:name=".weather" />
         <activity android:name=".Alert" />
-        <activity android:name=".booking"></activity>
+        <activity android:name=".booking" />
+        <activity android:name=".payment" />
+        <activity android:name=".bijbpay"></activity>
     </application>
 
 </manifest>

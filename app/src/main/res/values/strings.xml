@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SmartAirport</string>
+    <string name="id">1120-3921</string>
+    <string name="pas">1 Adult </string>
+    <string name="type">One Trip</string>
 </resources>

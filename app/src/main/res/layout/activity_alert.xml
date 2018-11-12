@@ -36,7 +36,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ee" />
+                app:srcCompat="@drawable/b" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -95,7 +95,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/dd" />
+                app:srcCompat="@drawable/c" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -153,7 +153,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/aa" />
+                app:srcCompat="@drawable/d" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -212,7 +212,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/bb" />
+                app:srcCompat="@drawable/a" />
 
             <TextView
                 android:id="@+id/textView15"

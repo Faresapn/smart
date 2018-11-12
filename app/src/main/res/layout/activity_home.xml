@@ -25,7 +25,7 @@
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="16dp">
 
@@ -41,8 +41,11 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginRight="32dp"
-                app:cardBackgroundColor="#C6DDEE"
+                android:layout_marginBottom="8dp"
+                android:shadowColor="#000"
+                app:cardBackgroundColor="#fff"
                 app:cardCornerRadius="5sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cardView3">
 
@@ -52,8 +55,8 @@
 
                     <ImageView
                         android:id="@+id/imageView9"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
                         android:layout_marginStart="38dp"
                         android:layout_marginLeft="38dp"
                         android:layout_marginTop="25dp"
@@ -62,7 +65,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/dd" />
+                        app:srcCompat="@drawable/c" />
 
                     <TextView
                         android:id="@+id/textView14"
@@ -88,8 +91,11 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="25dp"
-                app:cardBackgroundColor="#C6DDEE"
+                android:layout_marginBottom="8dp"
+                android:shadowColor="#000"
+                app:cardBackgroundColor="#fff"
                 app:cardCornerRadius="5sp"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/cuaca">
 
@@ -99,8 +105,8 @@
 
                     <ImageView
                         android:id="@+id/imageView8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
                         android:layout_marginStart="38dp"
                         android:layout_marginLeft="38dp"
                         android:layout_marginTop="25dp"
@@ -109,7 +115,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/ff" />
+                        app:srcCompat="@drawable/f" />
 
                     <TextView
                         android:id="@+id/textView11"
@@ -135,7 +141,8 @@
                 android:layout_marginTop="25dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginRight="32dp"
-                app:cardBackgroundColor="#C6DDEE"
+                android:shadowColor="#000"
+                app:cardBackgroundColor="#FFF"
                 app:cardCornerRadius="5sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/boking">
@@ -146,8 +153,8 @@
 
                     <ImageView
                         android:id="@+id/imageView7"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
                         android:layout_marginStart="38dp"
                         android:layout_marginLeft="38dp"
                         android:layout_marginTop="25dp"
@@ -156,7 +163,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/aa" />
+                        app:srcCompat="@drawable/d" />
 
                     <TextView
                         android:id="@+id/textView10"
@@ -182,7 +189,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginLeft="32dp"
                 android:layout_marginTop="25dp"
-                app:cardBackgroundColor="#C6DDEE"
+                app:cardBackgroundColor="#fff"
                 app:cardCornerRadius="5sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/profil">
@@ -193,8 +200,8 @@
 
                     <ImageView
                         android:id="@+id/imageView6"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
                         android:layout_marginStart="38dp"
                         android:layout_marginLeft="38dp"
                         android:layout_marginTop="25dp"
@@ -203,7 +210,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/bb" />
+                        app:srcCompat="@drawable/a" />
 
                     <TextView
                         android:id="@+id/textView9"
@@ -226,10 +233,11 @@
                 android:id="@+id/boking"
                 android:layout_width="135sp"
                 android:layout_height="135sp"
-                android:layout_marginTop="153dp"
+                android:layout_marginTop="150dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginRight="32dp"
-                app:cardBackgroundColor="#C6DDEE"
+                android:shadowColor="#000"
+                app:cardBackgroundColor="#fff"
                 app:cardCornerRadius="5sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -240,8 +248,8 @@
 
                     <ImageView
                         android:id="@+id/imageView5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
                         android:layout_marginStart="38dp"
                         android:layout_marginLeft="38dp"
                         android:layout_marginTop="25dp"
@@ -250,7 +258,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/ee" />
+                        app:srcCompat="@drawable/b" />
 
                     <TextView
                         android:id="@+id/textView8"
@@ -277,7 +285,7 @@
                 android:layout_marginTop="64dp"
                 android:layout_marginEnd="32dp"
                 android:layout_marginRight="32dp"
-                android:src="@drawable/acc"
+                android:src="@drawable/it"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -287,8 +295,9 @@
                 android:layout_height="135sp"
                 android:layout_marginStart="32dp"
                 android:layout_marginLeft="32dp"
-                android:layout_marginTop="153dp"
-                app:cardBackgroundColor="#C6DDEE"
+                android:layout_marginTop="150dp"
+                android:shadowColor="#000"
+                app:cardBackgroundColor="#fff"
                 app:cardCornerRadius="5sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
@@ -299,8 +308,8 @@
 
                     <ImageView
                         android:id="@+id/imageView4"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="60sp"
+                        android:layout_height="60sp"
                         android:layout_marginStart="38dp"
                         android:layout_marginLeft="38dp"
                         android:layout_marginTop="25dp"
@@ -309,7 +318,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/cc" />
+                        app:srcCompat="@drawable/e" />
 
                     <TextView
                         android:id="@+id/textView7"
