@@ -83,7 +83,7 @@ public class weather extends AppCompatActivity {
 
                     String speed = wind.getString("speed");
                     String cuaca = get.getCuaca();
-                    txtweather.setText(cuaca + temp + "˚C");
+                    txtweather.setText(cuaca + " " + temp + "˚ C");
 
 
 
