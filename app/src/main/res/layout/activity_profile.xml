@@ -19,7 +19,7 @@
             android:layout_marginTop="30sp"
             android:layout_marginLeft="25sp"
             app:srcCompat="@drawable/backk" />
-g
+
         <TextView
             android:id="@+id/Alert"
             android:layout_width="80sp"

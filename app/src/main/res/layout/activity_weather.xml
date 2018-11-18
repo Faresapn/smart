@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".weather"
-    android:orientation="vertical">
-    <LinearLayout
+    >
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-<<<<<<< HEAD
         android:layout_height="80sp"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:text="@string/app_name">
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/back"
             android:layout_width="30sp"
             android:layout_height="21sp"
             android:layout_marginTop="30sp"
@@ -22,11 +25,11 @@
             app:srcCompat="@drawable/backk" />
 
         <TextView
-            android:id="@+id/WEATHER"
+            android:id="@+id/text"
             android:layout_width="100sp"
             android:layout_height="wrap_content"
             android:text="WEATHER"
-            android:layout_marginLeft="100sp"
+            android:layout_marginLeft="90sp"
             android:layout_marginTop="26sp"
             android:layout_marginRight="146sp"
             android:textColor="#fff"
@@ -38,60 +41,25 @@
     </android.support.v7.widget.Toolbar>
 
     <android.support.constraint.ConstraintLayout
-=======
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="80sp"
-            android:background="?attr/colorPrimary"
-            android:minHeight="?attr/actionBarSize"
-            android:text="@string/app_name">
-            <ImageView
-                android:id="@+id/back"
-                android:layout_width="30sp"
-                android:layout_height="21sp"
-                android:layout_marginTop="30sp"
-                android:layout_marginLeft="25sp"
-                app:srcCompat="@drawable/backk" />
-
-            <TextView
-                android:id="@+id/text"
-                android:layout_width="100sp"
-                android:layout_height="wrap_content"
-                android:text="WEATHER"
-                android:layout_marginLeft="90sp"
-                android:layout_marginTop="26sp"
-                android:layout_marginRight="146sp"
-                android:textColor="#fff"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                tools:layout_editor_absoluteX="59dp"
-                tools:layout_editor_absoluteY="30dp" />
-
-        </android.support.v7.widget.Toolbar>
-    </LinearLayout>
-    <LinearLayout
->>>>>>> 52101d7d43792ae9308163e4c2e8c4bf3fead5e9
+        android:id="@+id/constraintLayout2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
         <ImageView
-<<<<<<< HEAD
-            android:id="@+id/imageView14"
+            android:id="@+id/weather"
             android:layout_width="128sp"
             android:layout_height="80sp"
+
             android:layout_marginStart="116dp"
-=======
-            android:id="@+id/weather"
-            android:layout_width="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_height="wrap_content"
->>>>>>> 52101d7d43792ae9308163e4c2e8c4bf3fead5e9
             android:layout_marginLeft="116dp"
+            android:layout_marginTop="102dp"
+            android:layout_marginEnd="116dp"
             android:layout_marginRight="116dp"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.627"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/w" />
@@ -100,61 +68,43 @@
             android:id="@+id/date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="129dp"
-            android:layout_marginLeft="129dp"
+            android:layout_marginStart="116dp"
+            android:layout_marginLeft="116dp"
             android:layout_marginTop="15dp"
-            android:layout_marginEnd="129dp"
-            android:layout_marginRight="129dp"
+            android:layout_marginEnd="117dp"
+            android:layout_marginRight="117dp"
             android:text="Jumat.26 Oktober 2018"
             android:textColor="#000"
             android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/weather" />
-        <TextView
-            android:id="@+id/txtweather"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="152dp"
-            android:layout_marginLeft="152dp"
-            android:layout_marginEnd="152dp"
-            android:layout_marginRight="152dp"
-            android:text="Berawan 26'C"
-            android:textColor="#000"
-            android:textSize="10sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-<<<<<<< HEAD
-            app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
         <TextView
             android:id="@+id/textView25"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="126dp"
-            android:layout_marginLeft="126dp"
-            android:layout_marginEnd="126dp"
-            android:layout_marginRight="126dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginLeft="124dp"
+            android:layout_marginEnd="123dp"
+            android:layout_marginRight="123dp"
             android:text="Rendah 21’C | Tinggi 33’C"
             android:textColor="#000"
             android:textSize="10sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+            app:layout_constraintTop_toBottomOf="@+id/txtweather" />
 
         <TextView
             android:id="@+id/textView26"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="130dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="18dp"
-            android:layout_marginEnd="130dp"
-            android:layout_marginRight="130dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
             android:text="Perkiraan Cuaca"
             android:textColor="#000"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
@@ -162,9 +112,9 @@
             android:id="@+id/textView27"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="27dp"
-            android:layout_marginLeft="27dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
             android:text="Curah Hujan"
             android:textColor="#000"
             android:textSize="10sp"
@@ -175,8 +125,8 @@
             android:id="@+id/textView28"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="27dp"
-            android:layout_marginLeft="27dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="65dp"
             android:text="Arah dan Kecepatan Angin"
             android:textColor="#000"
@@ -188,8 +138,8 @@
             android:id="@+id/textView29"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="27dp"
-            android:layout_marginLeft="27dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="65dp"
             android:text="Kelembaban"
             android:textColor="#000"
@@ -201,8 +151,8 @@
             android:id="@+id/textView30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="27dp"
-            android:layout_marginLeft="27dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="65dp"
             android:text="Cuaca Esok Hari"
             android:textColor="#000"
@@ -214,25 +164,25 @@
             android:id="@+id/imageView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="46dp"
-            android:layout_marginEnd="22dp"
-            android:layout_marginRight="22dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             app:layout_constraintEnd_toStartOf="@+id/imageView20"
             app:layout_constraintStart_toEndOf="@+id/textView27"
-            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
             app:srcCompat="@drawable/s" />
 
         <ImageView
             android:id="@+id/imageView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="77dp"
-            android:layout_marginEnd="22dp"
-            android:layout_marginRight="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             app:layout_constraintEnd_toStartOf="@+id/imageView19"
             app:layout_constraintStart_toEndOf="@+id/textView28"
             app:layout_constraintTop_toBottomOf="@+id/imageView15"
@@ -242,11 +192,11 @@
             android:id="@+id/imageView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="77dp"
-            android:layout_marginEnd="22dp"
-            android:layout_marginRight="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             app:layout_constraintEnd_toStartOf="@+id/imageView21"
             app:layout_constraintStart_toEndOf="@+id/textView29"
             app:layout_constraintTop_toBottomOf="@+id/imageView16"
@@ -256,11 +206,11 @@
             android:id="@+id/imageView18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="77dp"
-            android:layout_marginEnd="22dp"
-            android:layout_marginRight="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
             app:layout_constraintEnd_toStartOf="@+id/imageView22"
             app:layout_constraintStart_toEndOf="@+id/textView30"
             app:layout_constraintTop_toBottomOf="@+id/imageView17"
@@ -270,9 +220,9 @@
             android:id="@+id/imageView19"
             android:layout_width="60sp"
             android:layout_height="60sp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="26dp"
-            android:layout_marginRight="26dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView20"
             app:srcCompat="@drawable/angin" />
@@ -281,11 +231,11 @@
             android:id="@+id/imageView20"
             android:layout_width="60sp"
             android:layout_height="60sp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="26dp"
-            android:layout_marginRight="26dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
             app:srcCompat="@drawable/hujan" />
 
         <ImageView
@@ -293,8 +243,8 @@
             android:layout_width="60sp"
             android:layout_height="60sp"
             android:layout_marginTop="25dp"
-            android:layout_marginEnd="26dp"
-            android:layout_marginRight="26dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView19"
             app:srcCompat="@drawable/kemungkinan" />
@@ -303,32 +253,42 @@
             android:id="@+id/imageView22"
             android:layout_width="60sp"
             android:layout_height="60sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="26dp"
-            android:layout_marginRight="26dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView21"
             app:srcCompat="@drawable/ffff" />
 
+        <TextView
+            android:id="@+id/txtweather"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="148dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginEnd="147dp"
+
+            android:layout_marginRight="147dp"
+            android:text="Berawan 26'C"
+            android:textColor="#000"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/date" />
     </android.support.constraint.ConstraintLayout>
+
+
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
-        android:layout_height="30sp"
+        android:layout_height="34dp"
         android:layout_alignParentBottom="true"
         android:background="#1B77B9"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" >
-=======
-            app:layout_constraintTop_toBottomOf="@+id/date" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
 
+    </android.support.design.widget.BottomNavigationView>
+</android.support.constraint.ConstraintLayout>
 
->>>>>>> 52101d7d43792ae9308163e4c2e8c4bf3fead5e9
-
-
-    </LinearLayout>
-
-
-
-</LinearLayout>

@@ -110,21 +110,25 @@
                     android:layout_marginBottom="37dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toStartOf="@+id/imageView32"
+                    app:layout_constraintHorizontal_bias="0.923"
                     app:layout_constraintStart_toEndOf="@+id/imageView30"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="1.0"
+                    app:layout_constraintVertical_bias="0.0"
                     app:srcCompat="@drawable/tgh" />
 
                 <ImageView
                     android:id="@+id/imageView32"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginStart="105dp"
+                    android:layout_marginLeft="105dp"
                     android:layout_marginTop="34dp"
                     android:layout_marginEnd="133dp"
                     android:layout_marginRight="133dp"
                     android:layout_marginBottom="41dp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView50"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@drawable/buk" />
 
@@ -242,6 +246,85 @@
                     app:layout_constraintStart_toEndOf="@+id/imageView30"
                     app:layout_constraintTop_toBottomOf="@+id/textView49"
                     app:srcCompat="@drawable/under" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="10.50 a.m"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toEndOf="@+id/imageView32"
+                    tools:layout_editor_absoluteY="34dp" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Check-in Desk 9-14"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView32"
+                    app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="33dp"
+                    android:text="12.00 p.m"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    app:layout_constraintStart_toEndOf="@+id/imageView32"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+                <TextView
+                    android:id="@+id/textView55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Boarding at Gate 9D"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="263dp"
+                    tools:layout_editor_absoluteY="137dp" />
+
+                <TextView
+                    android:id="@+id/textView56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:text="14.50 p.m"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    app:layout_constraintStart_toStartOf="@+id/textView55"
+                    tools:layout_editor_absoluteY="168dp" />
+
+                <TextView
+                    android:id="@+id/textView57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TextVieArrived at Bandung"
+                    android:textSize="12sp"
+                    tools:layout_editor_absoluteX="286dp"
+                    tools:layout_editor_absoluteY="185dp" />
+
+                <TextView
+                    android:id="@+id/textView58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Arrived at Bandung"
+                    android:textColor="#000"
+                    android:textSize="14sp"
+                    tools:layout_editor_absoluteX="286dp"
+                    tools:layout_editor_absoluteY="233dp" />
             </android.support.constraint.ConstraintLayout>
         </android.support.v7.widget.CardView>
 
@@ -375,12 +458,14 @@
         android:id="@+id/button3"
         android:layout_width="340sp"
         android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="18sp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:layout_marginBottom="14dp"
-        android:background="@drawable/cornerbuttondua"
+        android:background="@drawable/book"
         android:text="Book Now"
         android:textColor="#fff"
         app:layout_constraintBottom_toTopOf="@+id/bottom_navigation"
